@@ -1,4 +1,5 @@
 // pages/index.tsx
+import Image from 'next/image'
 
 function Home() {
   return (
@@ -18,11 +19,11 @@ function Home() {
 
       {/* Section 1: Slow Time Change */}
       <section className="flex flex-col md:flex-row items-center my-16">
-        <img src="/time-change.png" alt="Time Change" className="md:w-1/2 w-full object-cover" />
+        <Image src="/time-change.png" alt="Time Change" className="md:w-1/2 w-full object-cover" />
         <div className="md:w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-4">Ease into Change</h2>
           <p>
-            Today's technology can softly guide you through a time change.
+            Today&apos;s technology can softly guide you through a time change.
             Jarring clocks by 60 minutes in the middle of the night hurts people and communities.
             Clocks today can speed up or slow down by just 12 seconds an hour, for a month.
             You can wake up at nearly the same time everyday, gradually guiding you biological clock to the new time.
@@ -32,20 +33,20 @@ function Home() {
 
       {/* Section 2: Health Benefits */}
       <section className="flex flex-col md:flex-row-reverse items-center my-16">
-        <img src="/health-benefits.png" alt="Health Benefits" className="md:w-1/2 w-full object-cover" />
+        <Image src="/health-benefits.png" alt="Health Benefits" className="md:w-1/2 w-full object-cover" />
         <div className="md:w-1/2 p-8">
-          <h2 className="text-2xl font-bold mb-4">Walk, don't Jump</h2>
+          <h2 className="text-2xl font-bold mb-4">Walk, don&apos;t Jump</h2>
           <p>
             Gradually bring yourself into Daylight Savings with Daylight Smearings.
             No more groggy mornings and mixed up alarms.
-            Don't wonder what time you have to get to work.
+            Don&apos;t wonder what time you have to get to work.
           </p>
         </div>
       </section>
 
       {/* Section 3: Call to Action */}
       <section className="flex flex-col md:flex-row items-center my-16">
-        <img src="/call-to-action.png" alt="Call to Action" className="md:w-1/2 w-full object-cover" />
+        <Image src="/call-to-action.png" alt="Call to Action" className="md:w-1/2 w-full object-cover" />
         <div className="md:w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-4">Take Action</h2>
           <p>

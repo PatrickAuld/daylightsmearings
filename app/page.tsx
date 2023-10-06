@@ -1,5 +1,4 @@
 // pages/index.tsx
-import Image from 'next/image'
 
 function Home() {
   return (
@@ -19,7 +18,7 @@ function Home() {
 
       {/* Section 1: Slow Time Change */}
       <section className="flex flex-col md:flex-row items-center my-16">
-        <Image src="/time-change.png" alt="Time Change" className="md:w-1/2 w-full object-cover" />
+        <img src="/time-change.png" alt="Time Change" className="md:w-1/2 w-full object-cover" />
         <div className="md:w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-4">Ease into Change</h2>
           <p>
@@ -33,7 +32,7 @@ function Home() {
 
       {/* Section 2: Health Benefits */}
       <section className="flex flex-col md:flex-row-reverse items-center my-16">
-        <Image src="/health-benefits.png" alt="Health Benefits" className="md:w-1/2 w-full object-cover" />
+        <img src="/health-benefits.png" alt="Health Benefits" className="md:w-1/2 w-full object-cover" />
         <div className="md:w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-4">Walk, don&apos;t Jump</h2>
           <p>
@@ -46,7 +45,7 @@ function Home() {
 
       {/* Section 3: Call to Action */}
       <section className="flex flex-col md:flex-row items-center my-16">
-        <Image src="/call-to-action.png" alt="Call to Action" className="md:w-1/2 w-full object-cover" />
+        <img src="/call-to-action.png" alt="Call to Action" className="md:w-1/2 w-full object-cover" />
         <div className="md:w-1/2 p-8">
           <h2 className="text-2xl font-bold mb-4">Take Action</h2>
           <p>

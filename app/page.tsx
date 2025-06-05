@@ -1,5 +1,7 @@
 // app/page.tsx
 
+import EmailSignup from '@/components/EmailSignup'
+
 function Home() {
   return (
     <div className="relative">
@@ -51,15 +53,7 @@ function Home() {
           <p>
             Sign up to be notified of smearing progress and to get our mobile app with smearing alarms.
           </p>
-          {/* Mailing List Signup Form (Placeholder) */}
-          <form className="mt-4">
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="p-2 border border-gray-300 rounded mb-2 w-full"
-            />
-            <button type="submit" className="w-full py-2 bg-blue-600 text-white rounded">Sign Up</button>
-          </form>
+          <EmailSignup />
         </div>
       </section>
     </div>

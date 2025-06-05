@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 // Use the default sans serif font stack instead of fetching fonts from Google.
 
 export const metadata: Metadata = {
-  title: 'Daylights Smearings',
+  title: 'Daylight Smearings',
   description: 'The healthy and safe way to change clocks',
 }
 
